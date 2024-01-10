@@ -25,7 +25,7 @@ const Genre = () => {
   return (
     <>
     <Helmet>
-        <title>BlueBird Movies | Genres</title>
+        <title>React Movies | API</title>
     </Helmet>
 
     <div className='flex flex-wrap justify-center px-2'>
