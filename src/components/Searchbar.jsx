@@ -1,5 +1,4 @@
 import React, { useContext, useState } from 'react'
-import { Helmet } from 'react-helmet';
 import Contextpage from '../Contextpage';
 import { useNavigate } from 'react-router-dom';
 import slugify from 'react-slugify';

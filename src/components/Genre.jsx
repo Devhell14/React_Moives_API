@@ -1,6 +1,5 @@
 import React, { useEffect, useContext } from "react";
 import Contextpage from "../Contextpage";
-import { Helmet } from "react-helmet";
 
 const Genre = () => {
   const {
