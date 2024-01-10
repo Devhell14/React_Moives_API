@@ -77,7 +77,7 @@ const Navbar = () => {
                         </div>
 
                         <div className="cursor-pointer bg-red-500 flex justify-center items-center p-2 rounded-xl mt-2" onClick={() => auth.signOut(toast.error("Logowebut successfully"))}>
-                            <h1>Logowebut</h1>
+                            <h1>Logout</h1>
                         </div>
                     </>
                         :
