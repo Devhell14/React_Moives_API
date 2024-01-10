@@ -41,10 +41,6 @@ const Searchbar = () => {
 
   return (
      <>
-    <Helmet>
-        <title>BlueBird Movies</title>
-    </Helmet>
-
     <div className="w-full bg-gradient-to-r from-fuchsia-400 to-rose-400 h-[10rem] md:h-[12rem]">
       <div className='h-full w-full bg-black/30 flex justify-center items-center'>
         <input
