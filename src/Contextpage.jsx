@@ -94,18 +94,18 @@ export function MovieProvider({ children }) {
 
 
   //<========= firebase Google Authentication ========>
-  const googleProvider = new GoogleAuthProvider();// =====> google auth provide
+  // const googleProvider = new GoogleAuthProvider();// =====> google auth provide
 
-  const GoogleLogin = async () => {
-    try {
-      const result = await signInWithPopup(auth, googleProvider);
-      navigate("/")
-      toast.success("Login successfully");
-    } catch (err) {
-      console.log(err)
-      navigate("/")
-    }
-  }
+  // const GoogleLogin = async () => {
+  //   try {
+  //     const result = await signInWithPopup(auth, googleProvider);
+  //     navigate("/")
+  //     toast.success("Login successfully");
+  //   } catch (err) {
+  //     console.log(err)
+  //     navigate("/")
+  //   }
+  // }
   // <==========================================================>
 
   return (
@@ -135,8 +135,8 @@ export function MovieProvider({ children }) {
         GetFavorite,
         totalPage,
         searchedMovies,
-        GoogleLogin,
-        user
+        // GoogleLogin,
+        // user
       }}
     >
       {children}
